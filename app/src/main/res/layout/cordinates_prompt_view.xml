@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <!--start-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/start" />
+
+    <EditText
+        android:id="@+id/start_lon_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/longitude"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/start_lat_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/latitude"
+        android:padding="5dp" />
+
+    <!--end-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/end" />
+
+    <EditText
+        android:id="@+id/end_lon_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/longitude"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/end_lat_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/latitude"
+        android:padding="5dp" />
+
+    <!--Speed-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/speed" />
+
+    <EditText
+        android:id="@+id/speed_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/speed"
+        android:padding="5dp" />
+
+</LinearLayout>

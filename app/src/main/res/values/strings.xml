@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RIdeCell</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--String always on lower case use, fonts to define the style.-->
+    <string name="start">start</string>
+    <string name="longitude">longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="end">end</string>
+    <string name="speed">speed</string>
+    <string name="request">request</string>
+    <string name="cur_position">current position</string>
+    <string name="route">route</string>
+    <string name="cordinates">enter cordinates</string>
+    <string name="requesting_current_location">requesting current location..</string>
+    <string name="cancel">cancel</string>
+</resources>
